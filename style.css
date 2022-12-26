@@ -53,6 +53,11 @@ h3 {
 .row:hover {
   background-color: #f0f0f0;
 }
-a{
-  text-decoration: none !important;
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+a:hover {
+  text-decoration: underline 1.5px #1a1a1a;
 }
