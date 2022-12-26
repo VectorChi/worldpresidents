@@ -1,4 +1,4 @@
-# worldpresidents
+# 🌏 worldpresidents
 A fun open source project for frontend beginners to collaborate. Live link. https://vectorchi.github.io/worldpresidents/
 ## Guide to contribute
 ### Step 1. Fork the repo. Ensure your fork a recent version of the repo to avoid conflicts.
