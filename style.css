@@ -53,3 +53,6 @@ h3 {
 .row:hover {
   background-color: #f0f0f0;
 }
+a{
+  text-decoration: none !important;
+}
