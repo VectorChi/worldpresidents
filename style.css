@@ -21,7 +21,7 @@ input {
   border-radius: 0.5rem;
 }
 input:focus {
-  outline: 2px solid #1a1a1a;
+  outline: 2px solid #0074ba;
 }
 .list_wrapper {
   display: grid;
@@ -42,16 +42,21 @@ h3 {
   letter-spacing: -0.08em;
 }
 
+.num {
+  font-weight: 500;
+}
+
 .table_header div {
   font-weight: 600;
 }
 .row {
   border-bottom: 1px solid #d7d7d7;
-  padding: 2rem 0rem;
+  padding: 2rem .25rem;
   cursor: pointer;
 }
 .row:hover {
   background-color: #f0f0f0;
+  border-radius: 5px;
 }
 a {
   text-decoration: none;
@@ -60,4 +65,12 @@ a {
 
 a:hover {
   text-decoration: underline 1.5px #1a1a1a;
+}
+
+h3 {  
+  border-radius: 0.5rem;
+  background: linear-gradient(164deg, rgba(0, 210, 112, .6), rgba(0, 116, 186, .8));
+  color: white;
+  padding: .5rem;
+  border: 1px solid rgba(255,255,255,.3);
 }
