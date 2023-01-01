@@ -5,8 +5,34 @@
 }
 body {
   font-family: "IBM Plex Mono", monospace;
+  background-color: var(--main-white);
+}
+:root {
+  --main-black: #1a1a1a;
+  --main-white: #ffffff;
+  --hover: #f0f0f0;
+  --border-colour: #d7d7d7;
+  --grey-white: #f4f4f4;
+}
+.dark_theme {
+  --main-black: #fefefe;
+  --main-white: #1a1a1a;
+  --hover: #333333;
+  --border-colour: #555555;
+  --grey-white: #333333;
+}
+nav {
+  display: flex;
+  justify-content: end;
+  width: 80%;
+  margin: 3rem auto;
 }
 
+#theme_icon {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
 .top_section {
   display: flex;
   justify-content: space-between;
@@ -16,9 +42,10 @@ body {
 input {
   padding: 1rem;
   width: 20rem;
-  background-color: #f4f4f4;
+  background-color: var(--grey-white);
   border: none;
   border-radius: 0.5rem;
+  color: var(--main-black);
 }
 input:focus {
   outline: 2px solid #0074ba;
@@ -48,29 +75,35 @@ h3 {
 
 .table_header div {
   font-weight: 600;
+  color: var(--main-black);
 }
 .row {
-  border-bottom: 1px solid #d7d7d7;
-  padding: 2rem .25rem;
+  border-bottom: 1px solid var(--border-colour);
+  padding: 2rem 0.25rem;
   cursor: pointer;
+  color: var(--main-black);
 }
 .row:hover {
-  background-color: #f0f0f0;
+  background-color: var(--hover);
   border-radius: 5px;
 }
 a {
   text-decoration: none;
-  color: #1a1a1a;
+  color: var(--main-black);
 }
 
 a:hover {
-  text-decoration: underline 1.5px #1a1a1a;
+  text-decoration: underline 1.5px var(--main-black);
 }
 
-h3 {  
+h3 {
   border-radius: 0.5rem;
-  background: linear-gradient(164deg, rgba(0, 210, 112, .6), rgba(0, 116, 186, .8));
+  background: linear-gradient(
+    164deg,
+    rgba(0, 210, 112, 0.6),
+    rgba(0, 116, 186, 0.8)
+  );
   color: white;
-  padding: .5rem;
-  border: 1px solid rgba(255,255,255,.3);
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
