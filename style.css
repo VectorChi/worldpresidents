@@ -99,9 +99,9 @@ a:hover {
 h3 {
   border-radius: 0.5rem;
   background: linear-gradient(
-    164deg,
-    rgba(0, 210, 112, 0.6),
-    rgba(0, 116, 186, 0.8)
+          164deg,
+          rgba(0, 210, 112, 0.6),
+          rgba(0, 116, 186, 0.8)
   );
   color: white;
   padding: 0.5rem;
