@@ -16,6 +16,7 @@
 
   <body>
     <nav>
+      <a href="contributors.html">Contributors</a>
       <img src="./assets/moon.svg" id="theme_icon" alt="moon" />
     </nav>
     <div class="list_wrapper">
@@ -3155,5 +3156,27 @@
       <!-- end of list -->
     </div>
     <script src="./main.js"></script>
+    <script type="text/javascript">
+      // Making reference
+      const searchInput = document.querySelector("#search");
+      const listItem = document.querySelectorAll(".list_wrapper .row");
+
+      // search funtion
+      searchInput.addEventListener("keyup", (e) => {
+        // initializing input value
+        const searchChar = e.target.value.toLowerCase();
+        listItem.forEach((rowItem) => {
+          // specify filter by country and capital
+          let searchTarget = rowItem.querySelector(".country_Capital").textContent;
+          console.log(searchTarget);
+
+          if (searchTarget.toLowerCase().includes(searchChar)) {
+            rowItem.style.display = "";
+          } else {
+            rowItem.style.display = "none";
+          }
+        });
+      });
+    </script>
   </body>
 </html>
