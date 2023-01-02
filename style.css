@@ -7,6 +7,36 @@
 
 body {
   font-family: "IBM Plex Mono", monospace;
+  background-color: var(--main-white);
+}
+
+:root {
+  --main-black: #1a1a1a;
+  --main-white: #ffffff;
+  --hover: #f0f0f0;
+  --border-colour: #d7d7d7;
+  --grey-white: #f4f4f4;
+}
+
+.dark_theme {
+  --main-black: #fefefe;
+  --main-white: #1a1a1a;
+  --hover: #333333;
+  --border-colour: #555555;
+  --grey-white: #333333;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  width: 80%;
+  margin: 3rem auto;
+}
+
+#theme_icon {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
 }
 
 .top_section {
@@ -19,13 +49,14 @@ body {
 input {
   padding: 1rem;
   width: 20rem;
-  background-color: #f4f4f4;
+  background-color: var(--grey-white);
   border: none;
   border-radius: 0.5rem;
+  color: var(--main-black);
 }
 
 input:focus {
-  outline: 2px solid #1a1a1a;
+  outline: 2px solid #0074ba;
 }
 
 .list_wrapper {
@@ -48,27 +79,44 @@ h3 {
   letter-spacing: -0.08em;
 }
 
+.num {
+  font-weight: 500;
+}
+
 .table_header div {
   font-weight: 600;
+  color: var(--main-black);
 }
 
 .row {
-  border-bottom: 1px solid #d7d7d7;
-  padding: 2rem 0rem;
+  border-bottom: 1px solid var(--border-colour);
+  padding: 2rem 0.25rem;
   cursor: pointer;
+  color: var(--main-black);
 }
 
 .row:hover {
-  background-color: #f0f0f0;
+  background-color: var(--hover);
+  border-radius: 5px;
 }
 
 a {
   text-decoration: none;
-  color: #1a1a1a;
+  color: var(--main-black);
 }
 
 a:hover {
-  text-decoration: underline 1.5px #1a1a1a;
+  text-decoration: underline 1.5px var(--main-black);
+}
+
+h3 {
+  border-radius: 0.5rem;
+  background: linear-gradient(164deg,
+      rgba(0, 210, 112, 0.6),
+      rgba(0, 116, 186, 0.8));
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 @media only screen and (max-width: 600px) {
@@ -82,7 +130,7 @@ a:hover {
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 500;
     letter-spacing: -0.08em;
     margin-bottom: 10px;
@@ -117,6 +165,35 @@ a:hover {
 
 @media only screen and (min-width: 600px) {
 
+  :root {
+    --main-black: #1a1a1a;
+    --main-white: #ffffff;
+    --hover: #f0f0f0;
+    --border-colour: #d7d7d7;
+    --grey-white: #f4f4f4;
+  }
+
+  .dark_theme {
+    --main-black: #fefefe;
+    --main-white: #1a1a1a;
+    --hover: #333333;
+    --border-colour: #555555;
+    --grey-white: #333333;
+  }
+
+  nav {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    margin: 3rem auto;
+  }
+
+  #theme_icon {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+  }
+
   .top_section {
     display: flex;
     justify-content: space-between;
@@ -127,13 +204,14 @@ a:hover {
   input {
     padding: 1rem;
     width: 20rem;
-    background-color: #f4f4f4;
+    background-color: var(--grey-white);
     border: none;
     border-radius: 0.5rem;
+    color: var(--main-black);
   }
 
   input:focus {
-    outline: 2px solid #1a1a1a;
+    outline: 2px solid #0074ba;
   }
 
   .list_wrapper {
@@ -154,28 +232,46 @@ a:hover {
     font-size: 4rem;
     font-weight: 500;
     letter-spacing: -0.08em;
+    margin-right: 10px;
+  }
+
+  .num {
+    font-weight: 500;
   }
 
   .table_header div {
     font-weight: 600;
+    color: var(--main-black);
   }
 
   .row {
-    border-bottom: 1px solid #d7d7d7;
-    padding: 2rem 0rem;
+    border-bottom: 1px solid var(--border-colour);
+    padding: 2rem 0.25rem;
     cursor: pointer;
+    color: var(--main-black);
   }
 
   .row:hover {
-    background-color: #f0f0f0;
+    background-color: var(--hover);
+    border-radius: 5px;
   }
 
   a {
     text-decoration: none;
-    color: #1a1a1a;
+    color: var(--main-black);
   }
 
   a:hover {
-    text-decoration: underline 1.5px #1a1a1a;
+    text-decoration: underline 1.5px var(--main-black);
+  }
+
+  h3 {
+    border-radius: 0.5rem;
+    background: linear-gradient(164deg,
+        rgba(0, 210, 112, 0.6),
+        rgba(0, 116, 186, 0.8));
+    color: white;
+    padding: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
