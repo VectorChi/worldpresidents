@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
+
 body {
   font-family: "IBM Plex Mono", monospace;
   background-color: var(--main-white);
 }
+
 :root {
   --main-black: #1a1a1a;
   --main-white: #ffffff;
@@ -14,6 +17,7 @@ body {
   --border-colour: #d7d7d7;
   --grey-white: #f4f4f4;
 }
+
 .dark_theme {
   --main-black: #fefefe;
   --main-white: #1a1a1a;
@@ -21,11 +25,18 @@ body {
   --border-colour: #555555;
   --grey-white: #333333;
 }
+
 nav {
   display: flex;
   justify-content: end;
   width: 80%;
   margin: 3rem auto;
+}
+
+#theme_icon {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
 }
 
 #theme_icon {
@@ -39,6 +50,7 @@ nav {
   align-items: center;
   padding-bottom: 6rem;
 }
+
 input {
   padding: 1rem;
   width: 20rem;
@@ -47,9 +59,11 @@ input {
   border-radius: 0.5rem;
   color: var(--main-black);
 }
+
 input:focus {
   outline: 2px solid #0074ba;
 }
+
 .list_wrapper {
   display: grid;
   grid-template-columns: 1fr;
@@ -57,6 +71,7 @@ input:focus {
   width: 80%;
   margin: 6rem auto;
 }
+
 .table_header,
 .row {
   display: grid;
@@ -77,16 +92,19 @@ h3 {
   font-weight: 600;
   color: var(--main-black);
 }
+
 .row {
   border-bottom: 1px solid var(--border-colour);
   padding: 2rem 0.25rem;
   cursor: pointer;
   color: var(--main-black);
 }
+
 .row:hover {
   background-color: var(--hover);
   border-radius: 5px;
 }
+
 a {
   text-decoration: none;
   color: var(--main-black);
@@ -98,6 +116,170 @@ a:hover {
 
 h3 {
   border-radius: 0.5rem;
+  background: linear-gradient(164deg,
+      rgba(0, 210, 112, 0.6),
+      rgba(0, 116, 186, 0.8));
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media only screen and (max-width: 600px) {
+
+  .top_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+    flex-direction: column;
+  }
+
+  h3 {
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: -0.08em;
+    margin-bottom: 10px;
+  }
+
+  input {
+    padding: 1rem;
+    width: 14rem;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 0.5rem;
+  }
+
+  .table_header,
+  .row {
+    display: grid;
+    grid-template-columns: 10% 10% 35% 29% 15%;
+  }
+
+  .table_header div {
+    font-weight: 600;
+    font-size: 8px;
+  }
+
+  .row {
+    border-bottom: 1px solid #d7d7d7;
+    padding: 10px 0px;
+    cursor: pointer;
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+  :root {
+    --main-black: #1a1a1a;
+    --main-white: #ffffff;
+    --hover: #f0f0f0;
+    --border-colour: #d7d7d7;
+    --grey-white: #f4f4f4;
+  }
+
+  .dark_theme {
+    --main-black: #fefefe;
+    --main-white: #1a1a1a;
+    --hover: #333333;
+    --border-colour: #555555;
+    --grey-white: #333333;
+  }
+
+  nav {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    margin: 3rem auto;
+  }
+
+  #theme_icon {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+  }
+
+  .top_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6rem;
+  }
+
+  input {
+    padding: 1rem;
+    width: 20rem;
+    background-color: var(--grey-white);
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--main-black);
+  }
+
+  input:focus {
+    outline: 2px solid #0074ba;
+  }
+
+  .list_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
+    width: 80%;
+    margin: 6rem auto;
+  }
+
+  .table_header,
+  .row {
+    display: grid;
+    grid-template-columns: 10% 10% 35% 30% 15%;
+  }
+
+  h3 {
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: -0.08em;
+    margin-right: 10px;
+  }
+
+  .num {
+    font-weight: 500;
+  }
+
+  .table_header div {
+    font-weight: 600;
+    color: var(--main-black);
+  }
+
+  .row {
+    border-bottom: 1px solid var(--border-colour);
+    padding: 2rem 0.25rem;
+    cursor: pointer;
+    color: var(--main-black);
+  }
+
+  .row:hover {
+    background-color: var(--hover);
+    border-radius: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--main-black);
+  }
+
+  a:hover {
+    text-decoration: underline 1.5px var(--main-black);
+  }
+
+  h3 {
+    border-radius: 0.5rem;
+    background: linear-gradient(164deg,
+        rgba(0, 210, 112, 0.6),
+        rgba(0, 116, 186, 0.8));
+    color: white;
+    padding: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
   background: linear-gradient(
     164deg,
     rgba(0, 210, 112, 0.6),
