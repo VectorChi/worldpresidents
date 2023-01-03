@@ -24,6 +24,7 @@ body {
   --hover: #333333;
   --border-colour: #555555;
   --grey-white: #333333;
+  color: #ffffff;
 }
 
 nav {
@@ -31,6 +32,10 @@ nav {
   justify-content: end;
   width: 80%;
   margin: 3rem auto;
+  gap: 1rem;
+}
+nav a {
+  padding-top: .25rem;
 }
 
 #theme_icon {
@@ -281,11 +286,36 @@ h3 {
   }
 
   background: linear-gradient(
-    164deg,
-    rgba(0, 210, 112, 0.6),
-    rgba(0, 116, 186, 0.8)
+          164deg,
+          rgba(0, 210, 112, 0.6),
+          rgba(0, 116, 186, 0.8)
   );
   color: white;
   padding: 0.5rem;
   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+ul#contributors {
+  list-style: none;
+  column-count: 5;
+  column-gap: 1rem;
+}
+ul#contributors li {
+  break-inside: avoid;
+  text-align: center;
+}
+ul#contributors li div {
+  padding-top: .5rem;
+}
+ul#contributors .profile_pict {
+  display:block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+}
+ul#contributors .links {
+  display: flex;
+  justify-content: center;
+  gap: .25rem;
 }
