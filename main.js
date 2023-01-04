@@ -29,3 +29,23 @@ toggleIcon.addEventListener("click", (e) => {
     toggleIcon.src = "./assets/sun.svg";
   } else toggleIcon.src = "./assets/moon.svg";
 });
+
+
+let Row = document.querySelectorAll(".row"),
+Load = document.querySelector(".load"),
+currentList = 0;
+
+Load.addEventListener('click', () => {
+  for(let i = currentList; i < currentList + 20; i++){
+    if (Row[i]){
+      Row[i].style.display = 'grid';
+    }
+  }
+  currentList += 20;
+  if(currentList >= Row.length){
+    event.target.style.display = 'none';
+  }
+})
+
+
+ 
