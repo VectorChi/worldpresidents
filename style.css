@@ -232,8 +232,7 @@ h3 {
     margin: 6rem auto;
   }
 
-  .table_header,
-  .row {
+  .table_header{
     display: grid;
     grid-template-columns: 10% 10% 35% 30% 15%;
   }
@@ -255,10 +254,30 @@ h3 {
   }
 
   .row {
+    display: grid;
+    grid-template-columns: 10% 10% 35% 30% 15%;
     border-bottom: 1px solid var(--border-colour);
     padding: 2rem 0.25rem;
     cursor: pointer;
     color: var(--main-black);
+    display: none;
+  }
+  .row:nth-child(1),
+  .row:nth-child(2),
+  .row:nth-child(3),
+  .row:nth-child(4),
+  .row:nth-child(5){
+    display: block;
+    display: grid;
+    grid-template-columns: 10% 10% 35% 30% 15%;
+  }
+ 
+  .load{
+    cursor: pointer;
+    color: blue;
+    margin-bottom: 1.5rem;
+    float: right;
+    margin-right: 7rem;
   }
 
   .row:hover {
