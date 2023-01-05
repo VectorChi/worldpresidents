@@ -30,22 +30,19 @@ toggleIcon.addEventListener("click", (e) => {
   } else toggleIcon.src = "./assets/moon.svg";
 });
 
-
+//load more funtion
 let Row = document.querySelectorAll(".row"),
-Load = document.querySelector(".load"),
-currentList = 0;
+  Load = document.querySelector(".load"),
+  currentList = 0;
 
-Load.addEventListener('click', () => {
-  for(let i = currentList; i < currentList + 20; i++){
-    if (Row[i]){
-      Row[i].style.display = 'grid';
+Load.addEventListener("click", () => {
+  for (let i = currentList; i < currentList + 20; i++) {
+    if (Row[i]) {
+      Row[i].style.display = "grid";
     }
   }
   currentList += 20;
-  if(currentList >= Row.length){
-    event.target.style.display = 'none';
+  if (currentList >= Row.length) {
+    e.target.style.display = "none";
   }
-})
-
-
- 
+});
