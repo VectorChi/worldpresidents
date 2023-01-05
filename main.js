@@ -2,7 +2,7 @@
 const searchInput = document.querySelector("#search");
 const listItem = document.querySelectorAll(".list_wrapper .row");
 const toggleIcon = document.querySelector("#theme_icon");
-
+const goUp = document.querySelector(".arrow-con");
 // search funtion
 searchInput.addEventListener("keyup", (e) => {
   // initializing input value
@@ -46,3 +46,7 @@ Load.addEventListener("click", () => {
     e.target.style.display = "none";
   }
 });
+
+goUp.addEventListener("click", () => {
+  document.querySelector("nav").scrollIntoView({ behavior: 'smooth' });
+})
