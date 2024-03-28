@@ -1,0 +1,1766 @@
+[
+  {
+    "id": "1",
+    "num": "1",
+    "flag": "🇦🇫",
+    "countryCapital": "Afghanistan, Kabul",
+    "bioUrl": "https://en.wikipedia.org/wiki/Ashraf_Ghani",
+    "name": "Ashraf Ghani",
+    "age": "73 years"
+  },
+  {
+    "id": "2",
+    "num": "2",
+    "flag": "🇦🇱",
+    "countryCapital": "Albania, Tirana",
+    "bioUrl": "https://en.wikipedia.org/wiki/Bajram_Begaj",
+    "name": "Bajram Begaj",
+    "age": "55 years"
+  },
+  {
+    "id": "3",
+    "num": "3",
+    "flag": "🇩🇿",
+    "countryCapital": "Algeria, Algiers",
+    "bioUrl": "https://en.wikipedia.org/wiki/Abdelmadjid_Tebboune",
+    "name": "Abdelmadjid Tebboune",
+    "age": "77 years"
+  },
+  {
+    "id": "4",
+    "num": "4",
+    "flag": "🇦🇩",
+    "countryCapital": "Andorra, Andorra la Vella",
+    "bioUrl": "https://en.wikipedia.org/wiki/Xavier_Espot_Zamora",
+    "name": "Xavier Espot Zamora",
+    "age": "77 years"
+  },
+  {
+    "id": "5",
+    "num": "5",
+    "flag": "🇩🇿",
+    "countryCapital": "Angola, Luanda",
+    "bioUrl": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Louren%C3%A7o",
+    "name": "João Lourenço",
+    "age": "68 years"
+  },
+  {
+    "id": "6",
+    "num": "6",
+    "flag": "🇦🇬",
+    "countryCapital": "Antigua and Barbuda, St. John's",
+    "bioUrl": "https://en.wikipedia.org/wiki/Gaston_Browne",
+    "name": "Gaston Browne",
+    "age": "55 years"
+  },
+  {
+    "id": "7",
+    "num": "7",
+    "flag": "🇦🇷",
+    "countryCapital": "🏆 Argentina, Buenos Aires",
+    "bioUrl": "https://en.wikipedia.org/wiki/Alberto_Fern%C3%A1ndez",
+    "name": "Alberto Fernández",
+    "age": "63 years"
+  },
+  {
+    "id": "8",
+    "num": "8",
+    "flag": "🇦🇲",
+    "countryCapital": "Armenia, Yerevan",
+    "bioUrl": "https://en.wikipedia.org/wiki/Vahagn_Khachaturyan",
+    "name": "Vahagn Khachaturyan",
+    "age": "63 years"
+  },
+  {
+    "id": "9",
+    "num": "9",
+    "flag": "🇦🇺",
+    "countryCapital": "Australia, Canberra",
+    "bioUrl": "https://en.wikipedia.org/wiki/Anthony_Albanese",
+    "name": "Anthony Albanese",
+    "age": "77 years"
+  },
+  {
+    "id": "10",
+    "num": "10",
+    "flag": "🇦🇹",
+    "countryCapital": "Austria, Vienna",
+    "bioUrl": "https://en.wikipedia.org/wiki/Alexander_Van_der_Bellen",
+    "name": "Alexander Van der Bellen",
+    "age": "78 years"
+  },
+  {
+    "id": "11",
+    "num": "11",
+    "flag": "🇦🇿",
+    "countryCapital": "Azerbaijan, Baku",
+    "bioUrl": "https://en.wikipedia.org/wiki/Ilham_Aliyev",
+    "name": "Ilham Heydar oghlu Aliyev",
+    "age": "61 years"
+  },
+  {
+    "id": "12",
+    "num": "12",
+    "flag": "🇧🇸",
+    "countryCapital": "Bahamas, Nassau",
+    "bioUrl": "https://en.wikipedia.org/wiki/Philip_Davis_(Bahamian_politician)",
+    "name": "Philip Davis",
+    "age": "71 years"
+  },
+  {
+    "id": "13",
+    "num": "13",
+    "flag": "🇧🇭",
+    "countryCapital": "Bahrain, Manama",
+    "bioUrl": "https://en.wikipedia.org/wiki/Hamad_bin_Isa_Al_Khalifa",
+    "name": "Hamad bin Isa Al Khalifa",
+    "age": "72 years"
+  },
+  {
+    "id": "14",
+    "num": "14",
+    "flag": "🇧🇩",
+    "countryCapital": "Bangladesh, Dhaka",
+    "bioUrl": "https://en.wikipedia.org/wiki/Mohammad_Abdul_Hamid",
+    "name": "Mohammad Abdul Hamid",
+    "age": "78 years"
+  },
+  {
+    "id": "15",
+    "num": "15",
+    "flag": "🇧🇧",
+    "countryCapital": "Barbados, Bridgetown",
+    "bioUrl": "https://en.wikipedia.org/wiki/Sandra_Mason",
+    "name": "Sandra Mason",
+    "age": "73 years"
+  },
+  {
+    "id": "16",
+    "num": "16",
+    "flag": "🇧🇾",
+    "countryCapital": "Belarus, Minsk",
+    "bioUrl": "https://en.wikipedia.org/wiki/Alexander_Lukashenko",
+    "name": "Alexander Lukashenko",
+    "age": "68 years"
+  },
+  {
+    "id": "17",
+    "num": "17",
+    "flag": "🇧🇪",
+    "countryCapital": "Belgium, Brussels",
+    "bioUrl": "https://en.wikipedia.org/wiki/Alexander_De_Croo",
+    "name": "Alexander De Croo",
+    "age": "47 years"
+  },
+  {
+    "id": "18",
+    "num": "18",
+    "flag": "🇧🇿",
+    "countryCapital": "Belize, Belmopan",
+    "bioUrl": "https://en.wikipedia.org/wiki/Johnny_Brice%C3%B1o",
+    "name": "Johnny Briceño",
+    "age": "62 years"
+  },
+  {
+    "id": "19",
+    "num": "19",
+    "flag": "🇧🇯",
+    "countryCapital": "Benin, Porto-Novo",
+    "bioUrl": "https://en.wikipedia.org/wiki/Patrice_Talon",
+    "name": "Patrice Talon",
+    "age": "64 years"
+  },
+  {
+    "id": "20",
+    "num": "20",
+    "flag": "🇧🇹",
+    "countryCapital": "Bhutan, Thimpu",
+    "bioUrl": "https://en.wikipedia.org/wiki/Jigme_Khesar_Namgyel_Wangchuck",
+    "name": "King Jigme Khesar Namgyal Wangchuck",
+    "age": "42 years"
+  },
+  {
+    "id": "21",
+    "num": "21",
+    "flag": "🇧🇴",
+    "countryCapital": "Bolivia, Sucre",
+    "bioUrl": "https://en.wikipedia.org/wiki/President_of_Bolivia",
+    "name": "Luis Arce",
+    "age": "59 years"
+  },
+  {
+    "id": "22",
+    "num": "22",
+    "flag": "🇧🇦",
+    "countryCapital": "Bosnia and Herzegovina, Sarajevo",
+    "bioUrl": "https://en.wikipedia.org/wiki/Chairman_of_the_Presidency_of_Bosnia_and_Herzegovina",
+    "name": "Željka Cvijanović",
+    "age": "55 years"
+  },
+  {
+    "id": "23",
+    "num": "23",
+    "flag": "🇧🇼",
+    "countryCapital": "Botswana, Gaborone",
+    "bioUrl": "https://en.wikipedia.org/wiki/President_of_Botswana",
+    "name": "Mokgweetsi Masisi",
+    "age": "60 years"
+  },
+  {
+    "id": "24",
+    "num": "24",
+    "flag": "🇧🇷",
+    "countryCapital": "Brazil, Sao Paulo",
+    "bioUrl": "https://en.wikipedia.org/wiki/President_of_Brazil",
+    "name": "Jair Bolsonaro",
+    "age": "67 years"
+  },
+  {
+    "id": "25",
+    "num": "25",
+    "flag": "🇧🇳",
+    "countryCapital": "Brunei, Bandar Seri Begawan",
+    "bioUrl": "https://en.wikipedia.org/wiki/Hassanal_Bolkiah",
+    "name": "Haji Hassanal Bolkiah Muʿizzaddin Waddaulah",
+    "age": "76 years"
+  },
+  {
+    "id": "26",
+    "num": "26",
+    "flag": "🇧🇬",
+    "countryCapital": "Bulgaria, Sofia",
+    "bioUrl": "https://en.wikipedia.org/wiki/President_of_Bulgaria",
+    "name": "Rumen Radev",
+    "age": "59 years"
+  },
+  {
+    "id": "27",
+    "num": "27",
+    "flag": "🇧🇫",
+    "countryCapital": "Burkina Faso, Ouagadougou",
+    "bioUrl": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Burkina_Faso",
+    "name": "Capt. Ibrahim Traoré",
+    "age": "34 years"
+  },
+  {
+    "id": "28",
+    "num": "28",
+    "flag": "🇧🇮",
+    "countryCapital": "Burundi, Bujumbura",
+    "bioUrl": "https://en.wikipedia.org/wiki/President_of_Burundi",
+    "name": "Évariste Ndayishimiye",
+    "age": "54 years"
+  },
+  {
+    "id": "29",
+    "num": "29",
+    "flag": "🇨🇮",
+    "countryCapital": "Côte d'Ivoire, Abidjan",
+    "bioUrl": "https://en.wikipedia.org/wiki/Alassane_Ouattara",
+    "name": "Alassane Ouattara",
+    "age": "80 years"
+  },
+  {
+    "id": "30",
+    "num": "30",
+    "flag": "🇨🇻",
+    "countryCapital": "Cabo Verde, Praia",
+    "bioUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Maria_Neves",
+    "name": "José Maria Neves",
+    "age": "62 years"
+  },
+  {
+    "id": "31",
+    "num": "31",
+    "flag": "🇰🇭",
+    "countryCapital": "Cambodia, Phnom Penh",
+    "bioUrl": "https://en.wikipedia.org/wiki/Heng_Samrin",
+    "name": "Heng Samrin",
+    "age": "88 years"
+  },
+  {
+    "id": "32",
+    "num": "32",
+    "flag": "🇨🇲",
+    "countryCapital": "Cameroon, Yaoundé",
+    "bioUrl": "https://en.wikipedia.org/wiki/Paul_Biya",
+    "name": "Paul Biya",
+    "age": "89 years"
+  },
+  {
+    "id": "33",
+    "num": "33",
+    "flag": "🇨🇦",
+    "countryCapital": "Canada, Ottawa",
+    "bioUrl": "https://en.wikipedia.org/wiki/Justin_Trudeau",
+    "name": "Justin Trudeau",
+    "age": "51 years"
+  },
+  {
+    "id": "34",
+    "num": "34",
+    "flag": "🇨🇫",
+    "countryCapital": "Central African Republic, Bangui",
+    "bioUrl": "https://en.wikipedia.org/wiki/Faustin-Archange_Touad%C3%A9ra",
+    "name": "Faustin-Archange Touadéra",
+    "age": "65 years"
+  },
+  {
+    "id": "35",
+    "num": "35",
+    "flag": "🇹🇩",
+    "countryCapital": "Chad, N'Djamena",
+    "bioUrl": "https://en.wikipedia.org/wiki/Mahamat_D%C3%A9by",
+    "name": "Mahamat Déby",
+    "age": "38 years"
+  },
+  {
+    "id": "36",
+    "num": "36",
+    "flag": "🇨🇱",
+    "countryCapital": "Chile, Santiago",
+    "bioUrl": "https://en.wikipedia.org/wiki/Gabriel_Boric#:~:text=Gabriel%20Boric%20Font%20(Spanish%20pronunciation,serving%20since%2011%20March%202022.",
+    "name": "Gabriel Boric",
+    "age": "36 years"
+  },
+  {
+    "id": "37",
+    "num": "37",
+    "flag": "🇨🇳",
+    "countryCapital": "China,Beijing",
+    "bioUrl": "https://en.wikipedia.org/wiki/Xi_Jinping",
+    "name": "Xi Jinping",
+    "age": "69 years"
+  },
+  {
+    "id": "38",
+    "num": "38",
+    "flag": "🇨🇴",
+    "countryCapital": "Colombia,Bogotá",
+    "bioUrl": "https://en.wikipedia.org/wiki/Gustavo_Petro",
+    "name": "Gustavo Petro",
+    "age": "62 years"
+  },
+  {
+    "id": "39",
+    "num": "39",
+    "flag": "🇨🇴",
+    "countryCapital": "Comoros,Moroni",
+    "bioUrl": "https://en.wikipedia.org/wiki/Azali_Assoumani",
+    "name": "Azali Assoumani",
+    "age": "63 years"
+  },
+  {
+    "id": "40",
+    "num": "40",
+    "flag": "🇨🇬",
+    "countryCapital": "Congo (Congo-Brazzaville),Brazzaville",
+    "bioUrl": "https://en.wikipedia.org/wiki/Denis_Sassou_Nguesso#:~:text=Denis%20Sassou%20Nguesso%20(born%2023,(PCT)%20for%2012%20years.",
+    "name": "Denis Sassou Nguesso",
+    "age": "79 years"
+  },
+  {
+    "id": "41",
+    "num": "41",
+    "flag": "🇨🇷",
+    "countryCapital": "Costa Rica, San José",
+    "bioUrl": "https://en.wikipedia.org/wiki/Rodrigo_Chaves_Robles",
+    "name": "Rodrigo Chaves Robles",
+    "age": "61 years"
+  },
+  {
+    "id": "42",
+    "num": "42",
+    "flag": "🇭🇷",
+    "countryCapital": "Croatia, Zagreb",
+    "bioUrl": "https://en.wikipedia.org/wiki/Zoran_Milanovi%C4%87",
+    "name": "Zoran Milanović",
+    "age": "54 years"
+  },
+  {
+    "id": "43",
+    "num": "43",
+    "flag": "🇨🇺",
+    "countryCapital": "Cuba, Havana",
+    "bioUrl": "https://en.wikipedia.org/wiki/Miguel_D%C3%ADaz-Canel",
+    "name": "Miguel Díaz Canel y Bermúdez",
+    "age": "62 years"
+  },
+  {
+    "id": "44",
+    "num": "44",
+    "flag": "🇨🇾",
+    "countryCapital": "Cyprus, Nicosia",
+    "bioUrl": "https://en.wikipedia.org/wiki/Nicos_Anastasiades",
+    "name": "Nicos Anastasiades",
+    "age": "76 years"
+  },
+  {
+    "id": "45",
+    "num": "45",
+    "flag": "🇨🇿",
+    "countryCapital": "Czechia, Prague",
+    "bioUrl": "https://en.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+    "name": "Miloš Zeman",
+    "age": "78 years"
+  },
+  {
+    "id": "46",
+    "num": "46",
+    "flag": "🇨🇩",
+    "countryCapital": "\n            Democratic Republic of the Congo, Kinshasa\n          ",
+    "bioUrl": "https://en.wikipedia.org/wiki/F%C3%A9lix_Tshisekedi",
+    "name": "Félix Tshisekedi",
+    "age": "59 years"
+  },
+  {
+    "id": "47",
+    "num": "47",
+    "flag": "🇩🇰",
+    "countryCapital": "Denmark, Copenhagen",
+    "bioUrl": "https://en.wikipedia.org/wiki/Mette_Frederiksen",
+    "name": "Mette Frederiksen",
+    "age": "45 years"
+  },
+  {
+    "id": "48",
+    "num": "48",
+    "flag": "🇩🇯",
+    "countryCapital": "Djibouti, Djibouti",
+    "bioUrl": "https://en.wikipedia.org/wiki/Isma%C3%AFl_Omar_Guelleh",
+    "name": "Ismaïl Omar Guelleh",
+    "age": "75 years"
+  },
+  {
+    "id": "49",
+    "num": "49",
+    "flag": "🇩🇲",
+    "countryCapital": "Dominica, Roseau",
+    "bioUrl": "https://en.wikipedia.org/wiki/Charles_Savarin",
+    "name": "Charles Angelo Savari",
+    "age": "79 years"
+  },
+  {
+    "id": "50",
+    "num": "50",
+    "flag": "🇩🇴",
+    "countryCapital": "Dominican Republic, Santo Domingo",
+    "bioUrl": "https://en.wikipedia.org/wiki/Luis_Abinader",
+    "name": "Luis Abinader",
+    "age": "55 years"
+  },
+  {
+    "id": "51",
+    "num": "51",
+    "flag": "🇪🇨",
+    "countryCapital": "Ecuador, Quito",
+    "bioUrl": "https://en.wikipedia.org/wiki/Guillermo_Lasso",
+    "name": "Guillermo Lasso",
+    "age": "67 years"
+  },
+  {
+    "id": "52",
+    "num": "52",
+    "flag": "🇪🇬",
+    "countryCapital": "Egypt, Cairo",
+    "bioUrl": "https://en.wikipedia.org/wiki/Abdel_Fattah_el-Sisi",
+    "name": "Abdel Fattah el-Sisi",
+    "age": "68 years"
+  },
+  {
+    "id": "53",
+    "num": "53",
+    "flag": "🇸🇻",
+    "countryCapital": "El Salvador, San Salvador",
+    "bioUrl": "https://en.wikipedia.org/wiki/Nayib_Bukele",
+    "name": "Nayib Bukele",
+    "age": "41 years"
+  },
+  {
+    "id": "54",
+    "num": "54",
+    "flag": "🇬🇶",
+    "countryCapital": "Equatorial Guinea, Malabo",
+    "bioUrl": "https://en.wikipedia.org/wiki/Teodoro_Obiang_Nguema_Mbasogo",
+    "name": "Teodoro Obiang Nguema Mbasogo",
+    "age": "80 years"
+  },
+  {
+    "id": "55",
+    "num": "55",
+    "flag": "🇪🇷",
+    "countryCapital": "Eritrea, Asmara",
+    "bioUrl": "https://en.wikipedia.org/wiki/Isaias_Afwerki",
+    "name": "Isaias Afwerki",
+    "age": "76 years"
+  },
+  {
+    "id": "56",
+    "num": "56",
+    "flag": "🇪🇪",
+    "countryCapital": "Estonia, Tallinn",
+    "bioUrl": "https://en.wikipedia.org/wiki/Alar_Karis",
+    "name": "Alar Karis",
+    "age": "64 years"
+  },
+  {
+    "id": "57",
+    "num": "57",
+    "flag": "🇸🇿",
+    "countryCapital": "Eswatini, Mbabane",
+    "bioUrl": "https://en.wikipedia.org/wiki/Cleopas_Dlamini",
+    "name": "Cleopas Dlamini",
+    "age": "69 years"
+  },
+  {
+    "id": "58",
+    "num": "58",
+    "flag": "🇪🇹",
+    "countryCapital": "Ethiopia, Addis Ababa",
+    "bioUrl": "https://en.wikipedia.org/wiki/Sahle-Work_Zewde",
+    "name": "Sahle-Work Zewde",
+    "age": "72 years"
+  },
+  {
+    "id": "59",
+    "num": "59",
+    "flag": "🇫🇯",
+    "countryCapital": "Fiji, Suva",
+    "bioUrl": "https://en.wikipedia.org/wiki/Wiliame_Katonivere",
+    "name": "Wiliame Katonivere",
+    "age": "58 years"
+  },
+  {
+    "id": "60",
+    "num": "60",
+    "flag": "🇫🇮",
+    "countryCapital": "Finland, Helsinki",
+    "bioUrl": "https://en.wikipedia.org/wiki/Sauli_Niinist%C3%B6",
+    "name": "Sauli Niinistö",
+    "age": "74 years"
+  },
+  {
+    "id": "61",
+    "num": "61",
+    "flag": "🇫🇷",
+    "countryCapital": "France, Paris",
+    "bioUrl": "https://en.wikipedia.org/wiki/Emmanuel_Macron",
+    "name": "Emmanuel Macron",
+    "age": "45 years"
+  },
+  {
+    "id": "62",
+    "num": "62",
+    "flag": "🇬🇦",
+    "countryCapital": "Gabon, Libreville",
+    "bioUrl": "https://en.wikipedia.org/wiki/Ali_Bongo_Ondimba",
+    "name": "Ali Bongo Ondimba",
+    "age": "63 years"
+  },
+  {
+    "id": "63",
+    "num": "63",
+    "flag": "🇬🇲",
+    "countryCapital": "Gambia, Banjul",
+    "bioUrl": "https://en.wikipedia.org/wiki/Adama_Barrow",
+    "name": "Adama Barrow",
+    "age": "57 years"
+  },
+  {
+    "id": "64",
+    "num": "64",
+    "flag": "🇬🇪",
+    "countryCapital": "Georgia, Tbilisi",
+    "bioUrl": "https://en.wikipedia.org/wiki/Salome_Zourabichvili",
+    "name": "Salome Zourabichvili",
+    "age": "70 years"
+  },
+  {
+    "id": "65",
+    "num": "65",
+    "flag": "🇩🇪",
+    "countryCapital": "Germany, Berlin",
+    "bioUrl": "https://en.wikipedia.org/wiki/Frank-Walter_Steinmeier",
+    "name": "Frank Walter Steinmeier",
+    "age": "66 years"
+  },
+  {
+    "id": "66",
+    "num": "66",
+    "flag": "🇬🇭",
+    "countryCapital": "Ghana, Accra",
+    "bioUrl": "https://en.wikipedia.org/wiki/Nana_Akufo-Addo",
+    "name": "Nana Akufo-Addo",
+    "age": "78 years"
+  },
+  {
+    "id": "67",
+    "num": "67",
+    "flag": "🇬🇷",
+    "countryCapital": "Greece, Athens",
+    "bioUrl": "https://en.wikipedia.org/wiki/Katerina_Sakellaropoulou",
+    "name": "Katerina Sakellaropoulou",
+    "age": "66 years"
+  },
+  {
+    "id": "68",
+    "num": "68",
+    "flag": "🇬🇩",
+    "countryCapital": "Grenada, St. George's",
+    "bioUrl": "https://en.wikipedia.org/wiki/Dickon_Mitchell",
+    "name": "Dickon Mitchell",
+    "age": "45 years"
+  },
+  {
+    "id": "69",
+    "num": "69",
+    "flag": "🇬🇹",
+    "countryCapital": "Guatemala, Guatemala City",
+    "bioUrl": "https://en.wikipedia.org/wiki/Alejandro_Giammattei",
+    "name": "Alejandro Giammattei",
+    "age": "66 years"
+  },
+  {
+    "id": "70",
+    "num": "70",
+    "flag": "🇬🇳",
+    "countryCapital": "Guinea, Conakry",
+    "bioUrl": "https://en.wikipedia.org/wiki/Mamady_Doumbouya",
+    "name": "Mamady Doumbouya",
+    "age": "42 years"
+  },
+  {
+    "id": "71",
+    "num": "71",
+    "flag": "🇬🇳",
+    "countryCapital": "Guinea, Conakry",
+    "bioUrl": "https://en.wikipedia.org/wiki/Mamady_Doumbouya",
+    "name": "Mamady Doumbouya",
+    "age": "42 years"
+  },
+  {
+    "id": "72",
+    "num": "72",
+    "flag": "🇬🇼",
+    "countryCapital": "Guinea-Bissau, Bissau",
+    "bioUrl": "https://en.wikipedia.org/wiki/Umaro_Sissoco_Embal%C3%B3",
+    "name": "Umaro Sissoco Embaló",
+    "age": "50 years"
+  },
+  {
+    "id": "73",
+    "num": "73",
+    "flag": "🇬🇾",
+    "countryCapital": "Guyana, Georgetown",
+    "bioUrl": "https://en.wikipedia.org/wiki/Irfaan_Ali",
+    "name": "Irfaan Ali\n            ",
+    "age": "42 years"
+  },
+  {
+    "id": "74",
+    "num": "74",
+    "flag": "🇭🇹",
+    "countryCapital": "Haiti, Port-au-Prince",
+    "bioUrl": "https://en.wikipedia.org/wiki/Ariel_Henry",
+    "name": "Ariel Henry",
+    "age": "73 years"
+  },
+  {
+    "id": "75",
+    "num": "75",
+    "flag": "🇻🇦",
+    "countryCapital": "Holy See, Vatican City",
+    "bioUrl": "https://en.wikipedia.org/wiki/Fernando_V%C3%A9rgez_Alzaga",
+    "name": "\n              Fernando Vérgez Alzaga",
+    "age": "77 years"
+  },
+  {
+    "id": "76",
+    "num": "76",
+    "flag": "🇭🇳",
+    "countryCapital": "Honduras, Tegucigalpa",
+    "bioUrl": "https://en.wikipedia.org/wiki/Xiomara_Castro",
+    "name": "Xiomara Castro",
+    "age": "63 years"
+  },
+  {
+    "id": "77",
+    "num": "77",
+    "flag": "🇭🇺",
+    "countryCapital": "Hungary, Budapest",
+    "bioUrl": "https://en.wikipedia.org/wiki/Katalin_Nov%C3%A1k",
+    "name": "Katalin Novák",
+    "age": "45 years"
+  },
+  {
+    "id": "78",
+    "num": "78",
+    "flag": "🇮🇸",
+    "countryCapital": "Iceland, Reykjavík",
+    "bioUrl": "https://en.wikipedia.org/wiki/Gu%C3%B0ni_Th._J%C3%B3hannesson",
+    "name": "Guðni Th. Jóhannesson",
+    "age": "54 years"
+  },
+  {
+    "id": "79",
+    "num": "79",
+    "flag": "🇮🇳",
+    "countryCapital": "India, New Delhi",
+    "bioUrl": "https://en.wikipedia.org/wiki/Droupadi_Murmu",
+    "name": "Droupadi Murmu",
+    "age": "64 years"
+  },
+  {
+    "id": "80",
+    "num": "80",
+    "flag": "🇮🇩",
+    "countryCapital": "Indonesia, Jakarta",
+    "bioUrl": "https://en.wikipedia.org/wiki/Joko_Widodo",
+    "name": "Joko Widodo",
+    "age": "61 years"
+  },
+  {
+    "id": "81",
+    "num": "81",
+    "flag": "🇮🇷",
+    "countryCapital": "Iran, Tehran",
+    "bioUrl": "https://en.wikipedia.org/wiki/Ebrahim_Raisi",
+    "name": "Ebrahim Raisi",
+    "age": "62 years"
+  },
+  {
+    "id": "82",
+    "num": "82",
+    "flag": "🇮🇶",
+    "countryCapital": "Iraq, Baghdad",
+    "bioUrl": "https://en.wikipedia.org/wiki/Abdul_Latif_Rashid",
+    "name": "Abdul Latif Rashid",
+    "age": "78 years"
+  },
+  {
+    "id": "83",
+    "num": "83",
+    "flag": "🇮🇪",
+    "countryCapital": "Ireland, Dublin",
+    "bioUrl": "https://en.wikipedia.org/wiki/Michael_D._Higgins",
+    "name": "Michael D. Higgins",
+    "age": "81 years"
+  },
+  {
+    "id": "84",
+    "num": "84",
+    "flag": "🇮🇱",
+    "countryCapital": "Israel, Jerusalem",
+    "bioUrl": "https://en.wikipedia.org/wiki/Isaac_Herzog",
+    "name": "Isaac Herzog",
+    "age": "62 years"
+  },
+  {
+    "id": "85",
+    "num": "85",
+    "flag": "🇮🇹",
+    "countryCapital": "Italy, Rome",
+    "bioUrl": "https://en.wikipedia.org/wiki/Sergio_Mattarella",
+    "name": "Sergio Mattarella",
+    "age": "81 years"
+  },
+  {
+    "id": "86",
+    "num": "86",
+    "flag": "🇯🇲",
+    "countryCapital": "Jamaica, Kingston",
+    "bioUrl": "https://en.wikipedia.org/wiki/Andrew_Holness",
+    "name": "Andrew Holness",
+    "age": "50 years"
+  },
+  {
+    "id": "87",
+    "num": "87",
+    "flag": "🇯🇵",
+    "countryCapital": "Japan, Tokyo",
+    "bioUrl": "https://en.wikipedia.org/wiki/Fumio_Kishida",
+    "name": "Fumio Kushida",
+    "age": "65 years"
+  },
+  {
+    "id": "88",
+    "num": "88",
+    "flag": "🇯🇴",
+    "countryCapital": "Jordan, Amman",
+    "bioUrl": "https://en.wikipedia.org/wiki/Bisher_Al-Khasawneh",
+    "name": "Bisher Al-Khasawneh",
+    "age": "53 years"
+  },
+  {
+    "id": "89",
+    "num": "89",
+    "flag": "🇰🇿",
+    "countryCapital": "Kazakhstan, Astana",
+    "bioUrl": "https://en.wikipedia.org/wiki/Kassym-Jomart_Tokayev",
+    "name": "Kassym-Jomart Tokayev",
+    "age": "69 years"
+  },
+  {
+    "id": "90",
+    "num": "90",
+    "flag": "🇰🇪",
+    "countryCapital": "Kenya, Nairobi",
+    "bioUrl": "https://en.wikipedia.org/wiki/William_Ruto",
+    "name": "William Ruto",
+    "age": "56 years"
+  },
+  {
+    "id": "91",
+    "num": "91",
+    "flag": "🇰🇮",
+    "countryCapital": "Kiribati, South Tarawa",
+    "bioUrl": "https://en.wikipedia.org/wiki/Taneti_Maamau",
+    "name": "Taneti Maamau",
+    "age": "62 years"
+  },
+  {
+    "id": "92",
+    "num": "92",
+    "flag": "🇰🇼",
+    "countryCapital": "Kuwait, Kuwait City",
+    "bioUrl": "https://en.wikipedia.org/wiki/Ahmad_Nawaf_Al-Ahmad_Al-Sabah",
+    "name": "Ahmad Nawaf Al-Ahmad Al-Sabah",
+    "age": "66 years"
+  },
+  {
+    "id": "93",
+    "num": "93",
+    "flag": "🇰🇬",
+    "countryCapital": "Kyrgyzstan, Bishkek",
+    "bioUrl": "https://en.wikipedia.org/wiki/Sadyr_Japarov",
+    "name": "Sadyr Japarov",
+    "age": "54 years"
+  },
+  {
+    "id": "94",
+    "num": "94",
+    "flag": "🇱🇦",
+    "countryCapital": "Laos, Vientiane",
+    "bioUrl": "https://en.wikipedia.org/wiki/Thongloun_Sisoulith",
+    "name": "Thongloun Sisoulith",
+    "age": "77 years"
+  },
+  {
+    "id": "95",
+    "num": "95",
+    "flag": "🇱🇻",
+    "countryCapital": "Latvia, Riga",
+    "bioUrl": "https://en.wikipedia.org/wiki/Egils_Levits",
+    "name": "Egils Levits",
+    "age": "67 years"
+  },
+  {
+    "id": "96",
+    "num": "96",
+    "flag": "🇱🇧",
+    "countryCapital": "Lebanon, Beirut",
+    "bioUrl": "https://en.wikipedia.org/wiki/Najib_Mikati",
+    "name": "Najib Mikati",
+    "age": "67 years"
+  },
+  {
+    "id": "97",
+    "num": "97",
+    "flag": "🇱🇸",
+    "countryCapital": "Lesotho, Maseru",
+    "bioUrl": "https://en.wikipedia.org/wiki/Sam_Matekane",
+    "name": "Sam Matekane",
+    "age": "64 years"
+  },
+  {
+    "id": "98",
+    "num": "98",
+    "flag": "🇱🇷",
+    "countryCapital": "Liberia, Monrovia",
+    "bioUrl": "https://en.wikipedia.org/wiki/George_Weah",
+    "name": "George Weah",
+    "age": "56 years"
+  },
+  {
+    "id": "99",
+    "num": "99",
+    "flag": "🇱🇾",
+    "countryCapital": "Libya, Tripoli",
+    "bioUrl": "https://en.wikipedia.org/wiki/Abdul_Hamid_Dbeibeh",
+    "name": "Abdul Hamid Dbeibeh",
+    "age": "63 years"
+  },
+  {
+    "id": "100",
+    "num": "100",
+    "flag": "🇱🇮",
+    "countryCapital": "Liechtenstein, Vaduz",
+    "bioUrl": "https://en.wikipedia.org/wiki/Daniel_Risch",
+    "name": "Daniel Risch",
+    "age": "44 years"
+  },
+  {
+    "id": "101",
+    "num": "101",
+    "flag": "🇱🇹",
+    "countryCapital": "Lithuania, Vilnius",
+    "bioUrl": "https://en.wikipedia.org/wiki/Gitanas_Naus%C4%97da",
+    "name": "Gitanas Nausėda",
+    "age": "58 years"
+  },
+  {
+    "id": "102",
+    "num": "102",
+    "flag": "🇱🇺",
+    "countryCapital": "Luxembourg, Luxembourg",
+    "bioUrl": "https://en.wikipedia.org/wiki/Xavier_Bettel",
+    "name": "Xavier_Bettel",
+    "age": "49 years"
+  },
+  {
+    "id": "103",
+    "num": "103",
+    "flag": "🇲🇬",
+    "countryCapital": "Madagascar, Antananarivo",
+    "bioUrl": "https://en.wikipedia.org/wiki/Andry_Rajoelina",
+    "name": "Andry Rajoelina",
+    "age": "48 years"
+  },
+  {
+    "id": "104",
+    "num": "104",
+    "flag": "🇲🇼",
+    "countryCapital": "Malawi, Lilongwe",
+    "bioUrl": "https://en.wikipedia.org/wiki/Lazarus_Chakwera",
+    "name": "Lazarus_Chakwera",
+    "age": "67 years"
+  },
+  {
+    "id": "105",
+    "num": "105",
+    "flag": "🇲🇾",
+    "countryCapital": "Malaysia, Kuala Lumpur",
+    "bioUrl": "https://en.wikipedia.org/wiki/Anwar_Ibrahim",
+    "name": "Anwar_Ibrahim",
+    "age": "75 years"
+  },
+  {
+    "id": "106",
+    "num": "106",
+    "flag": "🇲🇻",
+    "countryCapital": "Maldives, Malé",
+    "bioUrl": "https://en.wikipedia.org/wiki/Ibrahim_Mohamed_Solih",
+    "name": "Ibrahim Mohamed Solih",
+    "age": "60 years"
+  },
+  {
+    "id": "107",
+    "num": "107",
+    "flag": "🇲🇱",
+    "countryCapital": "Mali, Bamako",
+    "bioUrl": "https://en.wikipedia.org/wiki/Assimi_Go%C3%AFta",
+    "name": "Assimi Goïta",
+    "age": "39 years"
+  },
+  {
+    "id": "108",
+    "num": "108",
+    "flag": "🇲🇹",
+    "countryCapital": "Malta, Valletta",
+    "bioUrl": "https://en.wikipedia.org/wiki/George_Vella",
+    "name": "George Vella",
+    "age": "80 years"
+  },
+  {
+    "id": "109",
+    "num": "109",
+    "flag": "🇲🇭",
+    "countryCapital": "Marshall Islands, Delap-Uliga-Djarrit",
+    "bioUrl": "https://en.wikipedia.org/wiki/David_Kabua",
+    "name": "David Kabua",
+    "age": "71 years"
+  },
+  {
+    "id": "110",
+    "num": "110",
+    "flag": "🇲🇷",
+    "countryCapital": "Mauritania, Nouakchott",
+    "bioUrl": "https://en.wikipedia.org/wiki/Mohamed_Ould_Ghazouani",
+    "name": "Mohamed Ould Ghazouani",
+    "age": "66 years"
+  },
+  {
+    "id": "111",
+    "num": "111",
+    "flag": "🇲🇺",
+    "countryCapital": "Mauritius, Port Louis",
+    "bioUrl": "https://en.wikipedia.org/wiki/Prithvirajsing_Roopun",
+    "name": "Prithvirajsing Roopun",
+    "age": "63 years"
+  },
+  {
+    "id": "112",
+    "num": "112",
+    "flag": "🇲🇽",
+    "countryCapital": "Mexico, Mexico City",
+    "bioUrl": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador",
+    "name": "Andrés Manuel López Obrador",
+    "age": "69 years"
+  },
+  {
+    "id": "113",
+    "num": "113",
+    "flag": "🇫🇲",
+    "countryCapital": "Micronesia, Palikir",
+    "bioUrl": "https://en.wikipedia.org/wiki/David_Panuelo",
+    "name": "David Panuelo",
+    "age": "58 years"
+  },
+  {
+    "id": "114",
+    "num": "114",
+    "flag": "🇲🇩",
+    "countryCapital": "Moldova, Chișinău",
+    "bioUrl": "https://en.wikipedia.org/wiki/Maia_Sandu",
+    "name": "Maia Sandu",
+    "age": "50 years"
+  },
+  {
+    "id": "115",
+    "num": "115",
+    "flag": "🇲🇨",
+    "countryCapital": "Monaco, Monaco City",
+    "bioUrl": "https://en.wikipedia.org/wiki/Pierre_Dartout",
+    "name": "Pierre Dartout",
+    "age": "68 years"
+  },
+  {
+    "id": "116",
+    "num": "116",
+    "flag": "🇲🇳",
+    "countryCapital": "Mongolia, Ulaanbaatar",
+    "bioUrl": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh",
+    "name": "Ukhnaagiin Khürelsükh",
+    "age": "54 years"
+  },
+  {
+    "id": "117",
+    "num": "117",
+    "flag": "🇲🇪",
+    "countryCapital": "Montenegro, Podgorica",
+    "bioUrl": "https://en.wikipedia.org/wiki/Milo_%C4%90ukanovi%C4%87",
+    "name": "Milo Đukanović",
+    "age": "60 years"
+  },
+  {
+    "id": "118",
+    "num": "118",
+    "flag": "🇲🇦",
+    "countryCapital": "Morocco, Rabat",
+    "bioUrl": "https://en.wikipedia.org/wiki/Aziz_Akhannouch",
+    "name": "Aziz Akhannouch",
+    "age": "61 years"
+  },
+  {
+    "id": "119",
+    "num": "119",
+    "flag": "🇲🇿",
+    "countryCapital": "Mozambique, Maputo",
+    "bioUrl": "https://en.wikipedia.org/wiki/Filipe_Nyusi",
+    "name": "Filipe Nyusi",
+    "age": "63 years"
+  },
+  {
+    "id": "120",
+    "num": "120",
+    "flag": "🇲🇲",
+    "countryCapital": "Myanmar, Naypyidaw",
+    "bioUrl": "https://en.wikipedia.org/wiki/Myint_Swe",
+    "name": "Myint Swe",
+    "age": "71 years"
+  },
+  {
+    "id": "121",
+    "num": "121",
+    "flag": "🇳🇦",
+    "countryCapital": "Namibia, Windhoek",
+    "bioUrl": "https://en.wikipedia.org/wiki/Hage_Geingob",
+    "name": "Hage Geingob",
+    "age": "81 years"
+  },
+  {
+    "id": "122",
+    "num": "122",
+    "flag": "🇳🇷",
+    "countryCapital": "Nauru, Yaren",
+    "bioUrl": "https://en.wikipedia.org/wiki/Russ_Kun",
+    "name": "Russ Kun",
+    "age": "47 years"
+  },
+  {
+    "id": "123",
+    "num": "123",
+    "flag": "🇳🇵",
+    "countryCapital": "Nepal, Kathmandu",
+    "bioUrl": "https://en.wikipedia.org/wiki/Bidya_Devi_Bhandari",
+    "name": "Bidya Devi Bhandari",
+    "age": "61 years"
+  },
+  {
+    "id": "124",
+    "num": "124",
+    "flag": "🇳🇱",
+    "countryCapital": "Netherlands, Amsterdam",
+    "bioUrl": "https://en.wikipedia.org/wiki/Mark_Rutte",
+    "name": "Mark Rutte",
+    "age": "55 years"
+  },
+  {
+    "id": "125",
+    "num": "125",
+    "flag": "🇳🇿",
+    "countryCapital": "New Zealand, Wellington",
+    "bioUrl": "https://en.wikipedia.org/wiki/Jacinda_Ardern",
+    "name": "Jacinda Ardern",
+    "age": "42 years"
+  },
+  {
+    "id": "126",
+    "num": "126",
+    "flag": "🇳🇮",
+    "countryCapital": "Nicaragua, Managua",
+    "bioUrl": "https://en.wikipedia.org/wiki/Daniel_Ortega",
+    "name": "Daniel Ortega",
+    "age": "77 years"
+  },
+  {
+    "id": "127",
+    "num": "127",
+    "flag": "🇳🇪",
+    "countryCapital": "Niger, Niamey",
+    "bioUrl": "https://en.wikipedia.org/wiki/Mohamed_Bazoum",
+    "name": "Mohamed Bazoum",
+    "age": "62 years"
+  },
+  {
+    "id": "128",
+    "num": "128",
+    "flag": "🇳🇬",
+    "countryCapital": "Nigeria, Abuja",
+    "bioUrl": "https://en.wikipedia.org/wiki/Muhammadu_Buhari",
+    "name": "Muhammadu Buhari",
+    "age": "80 years"
+  },
+  {
+    "id": "129",
+    "num": "129",
+    "flag": "🇰🇵",
+    "countryCapital": "North Korea, Pyongyang",
+    "bioUrl": "https://en.wikipedia.org/wiki/Kim_Jong-un",
+    "name": "Kim Jong-un",
+    "age": "40 years"
+  },
+  {
+    "id": "130",
+    "num": "130",
+    "flag": "🇲🇰",
+    "countryCapital": "North Macedonia, Skopje",
+    "bioUrl": "https://en.wikipedia.org/wiki/Stevo_Pendarovski",
+    "name": "Stevo Pendarovski",
+    "age": "59 years"
+  },
+  {
+    "id": "131",
+    "num": "131",
+    "flag": "🇳🇴",
+    "countryCapital": "Norway, Oslo",
+    "bioUrl": "https://en.wikipedia.org/wiki/Jonas_Gahr_St%C3%B8re",
+    "name": "Jonas Gahr Støre",
+    "age": "62 years"
+  },
+  {
+    "id": "132",
+    "num": "132",
+    "flag": "🇴🇲",
+    "countryCapital": "Oman, Muscat",
+    "bioUrl": "https://en.wikipedia.org/wiki/Haitham_bin_Tariq",
+    "name": "Haitham bin Tariq",
+    "age": "68 years"
+  },
+  {
+    "id": "133",
+    "num": "133",
+    "flag": "🇵🇰",
+    "countryCapital": "Pakistan, Islamabad",
+    "bioUrl": "https://en.wikipedia.org/wiki/Arif_Alvi",
+    "name": "Arif Alvi",
+    "age": "73 years"
+  },
+  {
+    "id": "134",
+    "num": "134",
+    "flag": "🇵🇼",
+    "countryCapital": "Palau, Ngerulmud",
+    "bioUrl": "https://en.wikipedia.org/wiki/Surangel_Whipps_Jr.",
+    "name": "Surangel Whipps Jr",
+    "age": "54 years"
+  },
+  {
+    "id": "135",
+    "num": "135",
+    "flag": "🇵🇸",
+    "countryCapital": "Palestine State, Ramallah",
+    "bioUrl": "https://en.wikipedia.org/wiki/Mahmoud_Abbas",
+    "name": "Mahmoud Abbasr",
+    "age": "87 years"
+  },
+  {
+    "id": "136",
+    "num": "136",
+    "flag": "🇵🇦",
+    "countryCapital": "Panama, Panama City",
+    "bioUrl": "https://en.wikipedia.org/wiki/Laurentino_Cortizo",
+    "name": "Laurentino Cortizo",
+    "age": "69 years"
+  },
+  {
+    "id": "137",
+    "num": "137",
+    "flag": "🇵🇬",
+    "countryCapital": "Papua New Guinea, Port Moresby",
+    "bioUrl": "https://en.wikipedia.org/wiki/James_Marape",
+    "name": "James Marape",
+    "age": "51 years"
+  },
+  {
+    "id": "138",
+    "num": "138",
+    "flag": "🇵🇾",
+    "countryCapital": "Paraguay, Asunción",
+    "bioUrl": "https://en.wikipedia.org/wiki/Mario_Abdo_Ben%C3%ADtez",
+    "name": "Mario Abdo Benítez",
+    "age": "51 years"
+  },
+  {
+    "id": "139",
+    "num": "139",
+    "flag": "🇵🇪",
+    "countryCapital": "Peru, Lima",
+    "bioUrl": "https://en.wikipedia.org/wiki/Dina_Boluarte",
+    "name": "Dina_Boluarte",
+    "age": "60 years"
+  },
+  {
+    "id": "140",
+    "num": "140",
+    "flag": "🇵🇭",
+    "countryCapital": "Philippines, Manila",
+    "bioUrl": "https://en.wikipedia.org/wiki/Bongbong_Marcos",
+    "name": "Bongbong Marcos",
+    "age": "65 years"
+  },
+  {
+    "id": "141",
+    "num": "141",
+    "flag": "🇵🇱",
+    "countryCapital": "Poland, Warsaw",
+    "bioUrl": "https://en.wikipedia.org/wiki/Andrzej_Duda",
+    "name": "Andrzej Duda",
+    "age": "50 years"
+  },
+  {
+    "id": "142",
+    "num": "142",
+    "flag": "🇵🇹",
+    "countryCapital": "Portugal, Lison",
+    "bioUrl": "https://en.wikipedia.org/wiki/Marcelo_Rebelo_de_Sousa",
+    "name": "Marcelo Rebelo de Sousa",
+    "age": "74 years"
+  },
+  {
+    "id": "143",
+    "num": "143",
+    "flag": "🇶🇦",
+    "countryCapital": "Qatar, Doha",
+    "bioUrl": "https://en.wikipedia.org/wiki/Khalid_bin_Khalifa_bin_Abdul_Aziz_Al_Thani",
+    "name": "Khalid bin Khalifa bin Abdul Aziz Al Thani",
+    "age": "54 years"
+  },
+  {
+    "id": "144",
+    "num": "144",
+    "flag": "🇷🇴",
+    "countryCapital": "Romania, Bucharest",
+    "bioUrl": "https://en.wikipedia.org/wiki/Klaus_Iohannis",
+    "name": "Klaus Iohannis",
+    "age": "63 years"
+  },
+  {
+    "id": "145",
+    "num": "145",
+    "flag": "🇷🇺",
+    "countryCapital": "Russia, Moscow",
+    "bioUrl": "https://en.wikipedia.org/wiki/Vladimir_Putin",
+    "name": "Vladimir Putin",
+    "age": "70 years"
+  },
+  {
+    "id": "146",
+    "num": "146",
+    "flag": "🇷🇼",
+    "countryCapital": "Rwanda, Kigali",
+    "bioUrl": "https://en.wikipedia.org/wiki/Paul_Kagame",
+    "name": "Paul Kagame",
+    "age": "65 years"
+  },
+  {
+    "id": "147",
+    "num": "147",
+    "flag": "🇰🇳",
+    "countryCapital": "Saint Kitts and Nevis, Basseterre",
+    "bioUrl": "https://en.wikipedia.org/wiki/Terrance_Drew",
+    "name": "Terrance Drew",
+    "age": "46 years"
+  },
+  {
+    "id": "148",
+    "num": "148",
+    "flag": "🇱🇨",
+    "countryCapital": "Saint Lucia, Castries",
+    "bioUrl": "https://en.wikipedia.org/wiki/Philip_J._Pierre",
+    "name": "Philip J. Pierre",
+    "age": "68 years"
+  },
+  {
+    "id": "149",
+    "num": "149",
+    "flag": "🇻🇨",
+    "countryCapital": "\n            Saint Vincent and the Grenadines, Kingstown\n          ",
+    "bioUrl": "https://en.wikipedia.org/wiki/Ralph_Gonsalves",
+    "name": "Ralph Gonsalves",
+    "age": "76 years"
+  },
+  {
+    "id": "150",
+    "num": "150",
+    "flag": "🇼🇸",
+    "countryCapital": "Samoa, Apia",
+    "bioUrl": "https://en.wikipedia.org/wiki/Fiam%C4%93_Naomi_Mata%CA%BBafa",
+    "name": "Fiamē Naomi Mataʻafa",
+    "age": "65 years"
+  },
+  {
+    "id": "151",
+    "num": "151",
+    "flag": "🇸🇲",
+    "countryCapital": "San Marino, San Marino",
+    "bioUrl": "https://en.wikipedia.org/wiki/Maria_Luisa_Berti",
+    "name": "Maria Luisa Berti",
+    "age": "51, 46 years"
+  },
+  {
+    "id": "152",
+    "num": "152",
+    "flag": "🇸🇹",
+    "countryCapital": "São Tomé and Príncipe, São Tomé",
+    "bioUrl": "https://en.wikipedia.org/wiki/Carlos_Vila_Nova",
+    "name": "Carlos Vila Nova",
+    "age": "63 years"
+  },
+  {
+    "id": "153",
+    "num": "153",
+    "flag": "🇸🇦",
+    "countryCapital": "Saudi Arabia, Riyadh",
+    "bioUrl": "https://en.wikipedia.org/wiki/Mohammed_bin_Salman",
+    "name": "Mohammed bin Salman",
+    "age": "37 years"
+  },
+  {
+    "id": "154",
+    "num": "154",
+    "flag": "🇸🇳",
+    "countryCapital": "Senegal, Dakar",
+    "bioUrl": "https://en.wikipedia.org/wiki/Macky_Sall",
+    "name": "Macky Sall",
+    "age": "61 years"
+  },
+  {
+    "id": "155",
+    "num": "155",
+    "flag": "🇷🇸",
+    "countryCapital": "Serbia, Belgrade",
+    "bioUrl": "https://en.wikipedia.org/wiki/Aleksandar_Vu%C4%8Di%C4%87",
+    "name": "Aleksandar Vučić",
+    "age": "52 years"
+  },
+  {
+    "id": "156",
+    "num": "156",
+    "flag": "🇸🇨",
+    "countryCapital": "Seychelles, Victoria",
+    "bioUrl": "https://en.wikipedia.org/wiki/Wavel_Ramkalawan",
+    "name": "Wavel Ramkalawan",
+    "age": "63 years"
+  },
+  {
+    "id": "157",
+    "num": "157",
+    "flag": "🇸🇱",
+    "countryCapital": "Sierra Leone, Freetown",
+    "bioUrl": "https://en.wikipedia.org/wiki/Julius_Maada_Bio",
+    "name": "Julius Maada Bio",
+    "age": "58 years"
+  },
+  {
+    "id": "158",
+    "num": "158",
+    "flag": "🇸🇬",
+    "countryCapital": "Singapore, Freetown",
+    "bioUrl": "https://en.wikipedia.org/wiki/Halimah_Yacob",
+    "name": "Halimah Yacob",
+    "age": "68 years"
+  },
+  {
+    "id": "159",
+    "num": "159",
+    "flag": "🇸🇰",
+    "countryCapital": "Slovakia, Bratislava",
+    "bioUrl": "https://en.wikipedia.org/wiki/Zuzana_%C4%8Caputov%C3%A1",
+    "name": "Zuzana Čaputová",
+    "age": "49 years"
+  },
+  {
+    "id": "160",
+    "num": "160",
+    "flag": "🇸🇮",
+    "countryCapital": "Slovenia, Ljubljana",
+    "bioUrl": "https://en.wikipedia.org/wiki/Nata%C5%A1a_Pirc_Musar",
+    "name": "Nataša Pirc Musar",
+    "age": "54 years"
+  },
+  {
+    "id": "161",
+    "num": "161",
+    "flag": "🇸🇧",
+    "countryCapital": "Solomon Islands, Honiara",
+    "bioUrl": "https://en.wikipedia.org/wiki/Manasseh_Sogavare",
+    "name": "Manasseh Sogavare",
+    "age": "67 years"
+  },
+  {
+    "id": "162",
+    "num": "162",
+    "flag": "🇸🇴",
+    "countryCapital": "Somalia, Mogadishu",
+    "bioUrl": "https://en.wikipedia.org/wiki/Hassan_Sheikh_Mohamud",
+    "name": "Hassan Sheikh Mohamud",
+    "age": "67 years"
+  },
+  {
+    "id": "163",
+    "num": "163",
+    "flag": "🇿🇦",
+    "countryCapital": "South Africa, Pretoria",
+    "bioUrl": "https://en.wikipedia.org/wiki/Cyril_Ramaphosa",
+    "name": "Cyril Ramaphosa",
+    "age": "70 years"
+  },
+  {
+    "id": "164",
+    "num": "164",
+    "flag": "🇰🇷",
+    "countryCapital": "South Korea, Seoul",
+    "bioUrl": "https://en.wikipedia.org/wiki/Yoon_Suk-yeol",
+    "name": "Yoon Suk-yeol",
+    "age": "62 years"
+  },
+  {
+    "id": "165",
+    "num": "165",
+    "flag": "🇸🇸",
+    "countryCapital": "South Sudan, Juba",
+    "bioUrl": "https://en.wikipedia.org/wiki/Salva_Kiir_Mayardit",
+    "name": "Salva Kiir Mayardit",
+    "age": "71 years"
+  },
+  {
+    "id": "166",
+    "num": "166",
+    "flag": "🇪🇸",
+    "countryCapital": "Spain, Madrid",
+    "bioUrl": "https://en.wikipedia.org/wiki/Pedro_S%C3%A1nchez",
+    "name": "Pedro Sánchez",
+    "age": "50 years"
+  },
+  {
+    "id": "167",
+    "num": "167",
+    "flag": "🇱🇰",
+    "countryCapital": "Sri Lanka, Colombo",
+    "bioUrl": "https://en.wikipedia.org/wiki/Ranil_Wickremesinghe",
+    "name": "Ranil Wickremesinghe",
+    "age": "73 years"
+  },
+  {
+    "id": "168",
+    "num": "168",
+    "flag": "🇸🇩",
+    "countryCapital": "Sudan, Khartoum",
+    "bioUrl": "https://en.wikipedia.org/wiki/Abdel_Fattah_al-Burhan",
+    "name": "Abdel Fattah al-Burhan",
+    "age": "62 years"
+  },
+  {
+    "id": "169",
+    "num": "169",
+    "flag": "🇸🇷",
+    "countryCapital": "Suriname, Paramaribo",
+    "bioUrl": "https://en.wikipedia.org/wiki/Chan_Santokhi",
+    "name": "Chan Santokhi",
+    "age": "63 years"
+  },
+  {
+    "id": "170",
+    "num": "170",
+    "flag": "🇸🇪",
+    "countryCapital": "Sweden, Stockholm",
+    "bioUrl": "https://en.wikipedia.org/wiki/Ulf_Kristersson",
+    "name": "Ulf Kristersson",
+    "age": "58 years"
+  },
+  {
+    "id": "171",
+    "num": "171",
+    "flag": "🇨🇭",
+    "countryCapital": "Switzerland, Bern",
+    "bioUrl": "https://en.wikipedia.org/wiki/Ignazio_Cassis",
+    "name": "Ignazio Cassis",
+    "age": "61 years"
+  },
+  {
+    "id": "172",
+    "num": "172",
+    "flag": "🇸🇾",
+    "countryCapital": "Syria, Damascus",
+    "bioUrl": "https://en.wikipedia.org/wiki/Bashar_al-Assad",
+    "name": "Bashar al-Assad",
+    "age": "57 years"
+  },
+  {
+    "id": "173",
+    "num": "173",
+    "flag": "🇹🇯",
+    "countryCapital": "Tajikistan, Dushanbe",
+    "bioUrl": "https://en.wikipedia.org/wiki/Emomali_Rahmon",
+    "name": "Emomali Rahmon",
+    "age": "70 years"
+  },
+  {
+    "id": "174",
+    "num": "174",
+    "flag": "🇹🇿",
+    "countryCapital": "Tanzania, Dodoma",
+    "bioUrl": "https://en.wikipedia.org/wiki/Samia_Suluhu_Hassan",
+    "name": "Samia Suluhu Hassan\n            ",
+    "age": "62 years"
+  },
+  {
+    "id": "175",
+    "num": "175",
+    "flag": "🇹🇭",
+    "countryCapital": "Thailand, Bangkok",
+    "bioUrl": "https://en.wikipedia.org/wiki/Prayut_Chan-o-cha",
+    "name": "Prayut Chan-o-cha",
+    "age": "68 years"
+  },
+  {
+    "id": "176",
+    "num": "176",
+    "flag": "🇹🇱",
+    "countryCapital": "Timor-Leste, Dili",
+    "bioUrl": "https://en.wikipedia.org/wiki/President_of_East_Timor",
+    "name": "José Ramos-Horta",
+    "age": "73 years"
+  },
+  {
+    "id": "177",
+    "num": "177",
+    "flag": "🇹🇬",
+    "countryCapital": "Togo, Lomé",
+    "bioUrl": "https://en.wikipedia.org/wiki/Faure_Gnassingb%C3%A9",
+    "name": "Faure Gnassingbé",
+    "age": "56 years"
+  },
+  {
+    "id": "178",
+    "num": "178",
+    "flag": "🇹🇴",
+    "countryCapital": "Tonga, Nuku'alofa",
+    "bioUrl": "https://en.wikipedia.org/wiki/Siaosi_Sovaleni",
+    "name": "Siaosi Sovaleni",
+    "age": "52 years"
+  },
+  {
+    "id": "179",
+    "num": "179",
+    "flag": "🇹🇹",
+    "countryCapital": "Trinidad and Tobago, Port of Spain",
+    "bioUrl": "https://en.wikipedia.org/wiki/Paula-Mae_Weekes",
+    "name": "Paula-Mae Weekes",
+    "age": "64 years"
+  },
+  {
+    "id": "180",
+    "num": "180",
+    "flag": "🇹🇳",
+    "countryCapital": "Tunisia, Tunis",
+    "bioUrl": "https://en.wikipedia.org/wiki/Kais_Saied",
+    "name": "Kais Saied",
+    "age": "64 years"
+  },
+  {
+    "id": "181",
+    "num": "181",
+    "flag": "🇹🇷",
+    "countryCapital": "Turkey, Ankara",
+    "bioUrl": "https://en.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan",
+    "name": "Recep Tayyip Erdoğan",
+    "age": "68 years"
+  },
+  {
+    "id": "182",
+    "num": "182",
+    "flag": "🇹🇲",
+    "countryCapital": "Turkmenistan, Ashgabat",
+    "bioUrl": "https://en.wikipedia.org/wiki/President_of_Turkmenistan",
+    "name": "Serdar Berdimuhamedow",
+    "age": "41 years"
+  },
+  {
+    "id": "183",
+    "num": "183",
+    "flag": "🇹🇻",
+    "countryCapital": "Tuvalu, Funafuti",
+    "bioUrl": "https://en.wikipedia.org/wiki/Prime_Minister_of_Tuvalu",
+    "name": "Kausea Natano",
+    "age": "65 years"
+  },
+  {
+    "id": "184",
+    "num": "184",
+    "flag": "🇺🇬",
+    "countryCapital": "Uganda, Kampala",
+    "bioUrl": "https://en.wikipedia.org/wiki/Yoweri_Museveni#:~:text=Yoweri%20Kaguta%20Museveni%20Tibuhaburwa%20(born,Uganda%20since%2026%20January%201986.",
+    "name": "Yoweri Museveni",
+    "age": "78 years"
+  },
+  {
+    "id": "185",
+    "num": "185",
+    "flag": "🇺🇦",
+    "countryCapital": "Ukraine, Kyiv",
+    "bioUrl": "https://en.wikipedia.org/wiki/President_of_Ukraine",
+    "name": "Volodymyr Zelenskyy",
+    "age": "44 years"
+  },
+  {
+    "id": "186",
+    "num": "186",
+    "flag": "🇦🇪",
+    "countryCapital": "United Arab Emirates, Abu Dhabi",
+    "bioUrl": "https://en.wikipedia.org/wiki/President_of_the_United_Arab_Emirates",
+    "name": "Mohammed bin Zayed Al Nahyan",
+    "age": "61 years"
+  },
+  {
+    "id": "187",
+    "num": "187",
+    "flag": "🇬🇧",
+    "countryCapital": "United Kingdom, London",
+    "bioUrl": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_United_Kingdom",
+    "name": "Rishi Sunak",
+    "age": "42 years"
+  },
+  {
+    "id": "188",
+    "num": "188",
+    "flag": "🇺🇸",
+    "countryCapital": "\n            United States of America, Washington, D.C.\n          ",
+    "bioUrl": "https://en.wikipedia.org/wiki/President_of_the_United_States",
+    "name": "Joe Biden",
+    "age": "80 years"
+  },
+  {
+    "id": "189",
+    "num": "189",
+    "flag": "🇺🇾",
+    "countryCapital": "Uruguay, Montevideo",
+    "bioUrl": "https://en.wikipedia.org/wiki/President_of_Uruguay",
+    "name": "Luis Lacalle Pou",
+    "age": "49 years"
+  },
+  {
+    "id": "190",
+    "num": "190",
+    "flag": "🇺🇿",
+    "countryCapital": "Uzbekistan, Tashkent",
+    "bioUrl": "https://en.wikipedia.org/wiki/President_of_Uzbekistan",
+    "name": "Shavkat Mirziyoyev",
+    "age": "65 years"
+  },
+  {
+    "id": "191",
+    "num": "191",
+    "flag": "🇻🇺",
+    "countryCapital": "Vanuatu, Port Vila",
+    "bioUrl": "https://en.wikipedia.org/wiki/President_of_Vanuatu",
+    "name": "Nikenike Vurobaravu",
+    "age": "68 years"
+  },
+  {
+    "id": "192",
+    "num": "192",
+    "flag": "🇻🇪",
+    "countryCapital": "Venezuela, Caracas",
+    "bioUrl": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Maduro",
+    "name": "Nicolás Maduro",
+    "age": "60 years"
+  },
+  {
+    "id": "193",
+    "num": "193",
+    "flag": "🇻🇳",
+    "countryCapital": "Vietnam, Hanoi",
+    "bioUrl": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Xu%C3%A2n_Ph%C3%BAc",
+    "name": "Nguyễn Xuân Phúc",
+    "age": "68 years"
+  },
+  {
+    "id": "194",
+    "num": "194",
+    "flag": "🇾🇪",
+    "countryCapital": "Yemen, Hanoi",
+    "bioUrl": "https://en.wikipedia.org/wiki/Maeen_Abdulmalik_Saeed",
+    "name": "Maeen Abdulmalik Saeed",
+    "age": "46 years"
+  },
+  {
+    "id": "195",
+    "num": "195",
+    "flag": "🇿🇲",
+    "countryCapital": "Zambia, Lusaka",
+    "bioUrl": "https://en.wikipedia.org/wiki/Hakainde_Hichilema",
+    "name": "Hakainde Hichilema",
+    "age": "60 years"
+  },
+  {
+    "id": "196",
+    "num": "196",
+    "flag": "🇿🇼",
+    "countryCapital": "Zimbabwe, Harare",
+    "bioUrl": "https://en.wikipedia.org/wiki/Emmerson_Mnangagwa",
+    "name": "Emmerson Mnangagwa",
+    "age": "80 years"
+  }
+]
