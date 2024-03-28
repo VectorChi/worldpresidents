@@ -264,7 +264,7 @@ h3 {
     padding: 2rem 0.25rem;
     cursor: pointer;
     color: var(--main-black);
-    /* display: none; */
+    display: none;
   }
   .row:nth-child(-n + 5) {
     display: grid;
@@ -330,8 +330,4 @@ ul#contributors .links {
   display: flex;
   justify-content: center;
   gap: 0.25rem;
-}
-#no-data-found {
-  text-align: center;
-  margin-top: 40px;
 }
