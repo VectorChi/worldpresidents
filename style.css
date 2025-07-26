@@ -5,8 +5,6 @@
   overflow-x: hidden;
 }
 
-
-
 body {
   font-family: "IBM Plex Mono", monospace;
   background-color: var(--main-white);
@@ -20,10 +18,9 @@ body {
   --grey-white: #f4f4f4;
 }
 
-
 .arrow-con {
   position: fixed;
-  width:45px;
+  width: 45px;
   height: auto;
   display: flex;
   justify-content: center;
@@ -34,10 +31,9 @@ body {
   border-radius: 100%;
   padding: 7.5px;
   cursor: pointer;
-  
 }
 
-.arrow{
+.arrow {
   fill: black;
 }
 .dark_theme {
@@ -266,7 +262,8 @@ h3 {
     color: var(--main-black);
     display: none;
   }
-  .row:nth-child(-n + 5) {
+
+  .row {
     display: grid;
     grid-template-columns: 10% 10% 35% 30% 15%;
   }
