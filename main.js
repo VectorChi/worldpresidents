@@ -4,14 +4,14 @@ const listItem = document.querySelectorAll(".list_wrapper .row");
 const toggleIcon = document.querySelector("#theme_icon");
 const goUp = document.querySelector(".arrow-con");
 // search funtion
-searchInput.addEventListener("keyup", (e) => {
-  // initializing input value
-  const searchChar = e.target.value.toLowerCase();
-  listItem.forEach((rowItem) => {
-    // specify filter by country and capital
-    let searchTarget = rowItem.querySelector(".country_Capital").textContent;
-    console.log(searchTarget);
+// ...existing code...
 
+searchInput.addEventListener("keyup", (e) => {
+  const searchChar = e.target.value.toLowerCase();
+  // Always select current rows after dynamic rendering
+  const rows = document.querySelectorAll(".wrapper .row");
+  rows.forEach((rowItem) => {
+    let searchTarget = rowItem.querySelector(".country_Capital").textContent;
     if (searchTarget.toLowerCase().includes(searchChar)) {
       rowItem.style.display = "";
     } else {
@@ -19,6 +19,8 @@ searchInput.addEventListener("keyup", (e) => {
     }
   });
 });
+
+// ...existing code...
 
 //theme toggle
 toggleIcon.addEventListener("click", (e) => {
