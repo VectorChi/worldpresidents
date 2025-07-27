@@ -93,4 +93,8 @@ function incrementPresidentAgesOnceAfterOneYear() {
   // Set a timer to increment ages after 1 year (in milliseconds)
   setTimeout(incrementAges, 365 * 24 * 60 * 60 * 1000);
 }
-
+// Call this function after the page loads
+window.addEventListener(
+  "DOMContentLoaded",
+  incrementPresidentAgesOnceAfterOneYear
+);
