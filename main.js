@@ -9,7 +9,7 @@ const goUp = document.querySelector(".arrow-con");
 searchInput.addEventListener("keyup", (e) => {
   const searchChar = e.target.value.toLowerCase();
   // Always select current rows after dynamic rendering
-  const rows = document.querySelectorAll(".wrapper .row");
+  const rows = document.querySelectorAll(".list_wrapper .row");
   rows.forEach((rowItem) => {
     let searchTarget = rowItem.querySelector(".country_Capital").textContent;
     if (searchTarget.toLowerCase().includes(searchChar)) {
@@ -79,6 +79,7 @@ fetch('./data/presidents.json')
   .then(presidents => {
     presidentsData = presidents;
     renderPresidents(presidentsData);
+    incrementPresidentAgesOnceAfterOneYear();
   });
 
 // Improved yearly age increment

@@ -39,27 +39,6 @@
   <!--  -->
   <div class="wrapper"></div>
 
-  <script>
-    fetch('./data/presidents.json')
-      .then((response) => response.json())
-      .then(presidents => {
-        const wrapper = document.querySelector('.wrapper');
-        presidents.forEach((obj, index) => {
-          const row = document.createElement("div");
-          row.className = "row";
-          row.innerHTML = `
-            <div class="num">${index + 1}</div>
-            <div class="flag">${obj.flag}</div>
-            <div class="country_Capital">${obj.country}, ${obj.capital}</div>
-            <div class="name">
-              <a href="${obj.leader.wiki}" target="_blank" alt="Not Found">${obj.leader.name}</a>
-            </div>
-            <div class="age">${obj.leader.age} years</div>
-          `;
-          wrapper.appendChild(row);
-        });
-      });
-  </script>
 </div>
     
     <script src="./main.js"></script>
