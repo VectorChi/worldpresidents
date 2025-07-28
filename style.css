@@ -17,6 +17,43 @@ body {
   --border-colour: #d7d7d7;
   --grey-white: #f4f4f4;
 }
+.dark_theme {
+  --main-black: #fefefe;
+  --main-white: #1a1a1a;
+  --hover: #333333;
+  --border-colour: #555555;
+  --grey-white: #333333;
+  color: #ffffff;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 3rem auto;
+}
+nav a {
+  font-size: 1rem;
+  padding-top: 0.25rem;
+}
+.logo {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  margin: 0px;
+  cursor: pointer;
+}
+.logo p {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
 
 .arrow-con {
   position: fixed;
@@ -36,37 +73,13 @@ body {
 .arrow {
   fill: black;
 }
-.dark_theme {
-  --main-black: #fefefe;
-  --main-white: #1a1a1a;
-  --hover: #333333;
-  --border-colour: #555555;
-  --grey-white: #333333;
-  color: #ffffff;
-}
-
-nav {
-  display: flex;
-  justify-content: end;
-  width: 80%;
-  margin: 3rem auto;
-  gap: 1rem;
-}
-nav a {
-  padding-top: 0.25rem;
-}
 
 #theme_icon {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   cursor: pointer;
 }
 
-#theme_icon {
-  width: 2rem;
-  height: 2rem;
-  cursor: pointer;
-}
 .top_section {
   display: flex;
   justify-content: space-between;
@@ -81,6 +94,7 @@ input {
   border: none;
   border-radius: 0.5rem;
   color: var(--main-black);
+  font-family: "IBM Plex Mono", monospace;
 }
 
 input:focus {
@@ -92,7 +106,7 @@ input:focus {
   grid-template-columns: 1fr;
   row-gap: 1.5rem;
   width: 80%;
-  margin: 6rem auto;
+  margin: 16rem auto;
 }
 
 .table_header,
@@ -138,15 +152,7 @@ a:hover {
 }
 
 h3 {
-  border-radius: 0.5rem;
-  background: linear-gradient(
-    164deg,
-    rgba(0, 210, 112, 0.6),
-    rgba(0, 116, 186, 0.8)
-  );
-  color: white;
-  padding: 0.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: var(--main-black);
 }
 
 @media only screen and (max-width: 600px) {
@@ -160,7 +166,7 @@ h3 {
 
   h3 {
     font-size: 23px;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: -0.08em;
     margin-bottom: 10px;
   }
@@ -195,14 +201,14 @@ h3 {
 @media only screen and (min-width: 600px) {
   nav {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     width: 80%;
     margin: 3rem auto;
   }
 
   #theme_icon {
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     cursor: pointer;
   }
 
@@ -210,7 +216,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
   }
 
   input {
@@ -231,7 +237,7 @@ h3 {
     grid-template-columns: 1fr;
     row-gap: 1.5rem;
     width: 80%;
-    margin: 6rem auto;
+    margin: 8rem auto;
   }
 
   .table_header {
@@ -241,9 +247,8 @@ h3 {
 
   h3 {
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: -0.08em;
-    margin-right: 10px;
   }
 
   .num {
@@ -289,18 +294,6 @@ h3 {
   a:hover {
     text-decoration: underline 1.5px var(--main-black);
   }
-
-  h3 {
-    border-radius: 0.5rem;
-    background: linear-gradient(
-      164deg,
-      rgba(0, 210, 112, 0.6),
-      rgba(0, 116, 186, 0.8)
-    );
-    color: white;
-    padding: 0.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-  }
 }
 
 ul#contributors {
@@ -308,10 +301,14 @@ ul#contributors {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 0.5rem;
+  row-gap: 3rem;
 }
 ul#contributors li {
   break-inside: avoid;
   text-align: center;
+}
+ul#contributors .name {
+  font-weight: 700;
 }
 ul#contributors li div {
   padding-top: 0.5rem;

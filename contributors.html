@@ -1,66 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>World Presidents - Contributors</title>
-  </head>
 
-  <body>
-    <nav>
-      <a href="index.html">Home</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <title>World Presidents - Contributors</title>
+</head>
+
+<body>
+  <nav>
+    <a href="/" class="logo">
+      <img src="./assets/logo.svg" alt="worldLogo">
+      <p>WorldPresidents</p>
+    </a>
+    <ul class="nav-menu">
+      <a href="#">Github</a>
+      <a href="contributors.html">Contributors</a>
       <img src="./assets/moon.svg" id="theme_icon" alt="moon" />
-    </nav>
-    <div class="list_wrapper">
-      <div class="top_section">
-        <h3>🤓 Contributors</h3>
-      </div>
-
-      <ul id="contributors"></ul>
-
-      <script type="text/javascript">
-        /** Fetch Contributors */
-        fetch('./contributors.json')
-          .then((response) => response.json())
-          .then((contributors) => {
-            contributors = contributors.map((c) => {
-                let html = `<li class="contributor">`
-                  html += `<img class="profile_pict" src="${c.profile_pict}">`
-                  html += `<div class="name">${c.name}</div>`
-                  html += `<div class="role">${c.role}</div>`
-                  html += `<div class="country">${c.country}</div>`
-                  html += `<div class="links">`
-                    html += `<a class="portfolio_link" href="${c.portfolio_link}" target="_blank"><i class="fas fa-globe"></i></a>`
-                    html += `<a class="github_link" href="${c.github_link}" target="_blank"><i class="fab fa-github"></i></a>`
-                  html += `</div>`
-                html += `</li>`
-                return html
-            })
-            let ContributorsElement = document.getElementById('contributors')
-            ContributorsElement.innerHTML = contributors.join('')
-          })
-
-        /** Toggle Theme ICon */
-        const toggleIcon = document.querySelector("#theme_icon");
-        /** Theme Toggle (Dark/Light) */
-        toggleIcon.addEventListener("click", (e) => {
-          document.body.classList.toggle("dark_theme");
-
-          // change icon when toggling class
-          if (document.body.classList.contains("dark_theme")) {
-            toggleIcon.src = "./assets/sun.svg";
-          } else toggleIcon.src = "./assets/moon.svg";
-        });
-      </script>
+    </ul>
+  </nav>
+  <div class="list_wrapper">
+    <div class="top_section">
+      <h3>Contributors</h3>
     </div>
-  </body>
+
+    <ul id="contributors"></ul>
+
+    <script type="text/javascript">
+      /** Fetch Contributors */
+      fetch('./contributors.json')
+        .then((response) => response.json())
+        .then((contributors) => {
+          contributors = contributors.map((c) => {
+            let html = `<li class="contributor">`
+            html += `<img class="profile_pict" src="${c.profile_pict}">`
+            html += `<div class="name">${c.name}</div>`
+            html += `<div class="role">${c.role}</div>`
+            html += `<div class="country">${c.country}</div>`
+            html += `<div class="links">`
+            html += `<a class="portfolio_link" href="${c.portfolio_link}" target="_blank"><i class="fas fa-globe"></i></a>`
+            html += `<a class="github_link" href="${c.github_link}" target="_blank"><i class="fab fa-github"></i></a>`
+            html += `</div>`
+            html += `</li>`
+            return html
+          })
+          let ContributorsElement = document.getElementById('contributors')
+          ContributorsElement.innerHTML = contributors.join('')
+        })
+
+      /** Toggle Theme ICon */
+      const toggleIcon = document.querySelector("#theme_icon");
+      /** Theme Toggle (Dark/Light) */
+      toggleIcon.addEventListener("click", (e) => {
+        document.body.classList.toggle("dark_theme");
+
+        // change icon when toggling class
+        if (document.body.classList.contains("dark_theme")) {
+          toggleIcon.src = "./assets/sun.svg";
+        } else toggleIcon.src = "./assets/moon.svg";
+      });
+    </script>
+  </div>
+</body>
+
 </html>
