@@ -3,15 +3,15 @@ const searchInput = document.querySelector("#search");
 const listItem = document.querySelectorAll(".list_wrapper .row");
 const toggleIcon = document.querySelector("#theme_icon");
 const goUp = document.querySelector(".arrow-con");
-// search funtion
-searchInput.addEventListener("keyup", (e) => {
-  // initializing input value
-  const searchChar = e.target.value.toLowerCase();
-  listItem.forEach((rowItem) => {
-    // specify filter by country and capital
-    let searchTarget = rowItem.querySelector(".country_Capital").textContent;
-    console.log(searchTarget);
 
+// search funtion
+
+searchInput.addEventListener("keyup", (e) => {
+  const searchChar = e.target.value.toLowerCase();
+  // Always select current rows after dynamic rendering
+  const rows = document.querySelectorAll(".list_wrapper .row");
+  rows.forEach((rowItem) => {
+    let searchTarget = rowItem.querySelector(".country_Capital").textContent;
     if (searchTarget.toLowerCase().includes(searchChar)) {
       rowItem.style.display = "";
     } else {
@@ -51,21 +51,48 @@ goUp.addEventListener("click", (e) => {
   document.querySelector("nav").scrollIntoView({ behavior: "smooth" });
 });
 
-//function to find ages and increment 1 after 365 days
+let presidentsData = [];
+
+// Fetch and render presidents
+function renderPresidents(presidents) {
+  const wrapper = document.querySelector('.wrapper');
+  wrapper.innerHTML = '';
+  presidents.forEach((obj, index) => {
+    const row = document.createElement("div");
+    row.className = "row";
+    row.innerHTML = `
+      <div class="num">${index + 1}</div>
+      <div class="flag">${obj.flag}</div>
+      <div class="country_Capital">${obj.country}, ${obj.capital}</div>
+      <div class="name">
+        <a href="${obj.leader.wiki}" target="_blank" alt="Not Found">${obj.leader.name}</a>
+      </div>
+      <div class="age">${obj.leader.age} years</div>
+    `;
+    wrapper.appendChild(row);
+  });
+}
+
+// Fetch presidents.json and initialize
+fetch('./data/presidents.json')
+  .then((response) => response.json())
+  .then(presidents => {
+    presidentsData = presidents;
+    renderPresidents(presidentsData);
+    incrementPresidentAgesOnceAfterOneYear();
+  });
+
+// Improved yearly age increment
 function incrementPresidentAgesOnceAfterOneYear() {
   function incrementAges() {
-    document.querySelectorAll(".age").forEach((ageDiv) => {
-      let match = ageDiv.textContent.match(/^(\d+)\s*years$/);
-      if (match) {
-        let newAge = parseInt(match[1], 10) + 1;
-        ageDiv.textContent = `${newAge} years`;
-      }
+    presidentsData.forEach(obj => {
+      obj.leader.age += 1;
     });
+    renderPresidents(presidentsData);
   }
   // Set a timer to increment ages after 1 year (in milliseconds)
   setTimeout(incrementAges, 365 * 24 * 60 * 60 * 1000);
 }
-
 // Call this function after the page loads
 window.addEventListener(
   "DOMContentLoaded",
