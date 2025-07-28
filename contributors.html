@@ -19,7 +19,7 @@
 
 <body>
   <nav>
-    <a href="/" class="logo">
+    <a href=./" class="logo">
       <img src="./assets/favicon.svg" alt="worldLogo">
       <p>WorldPresidents</p>
     </a>
@@ -31,7 +31,7 @@
   </nav>
   <div class="list_wrapper">
     <div class="top_section">
-      <h3>Contributors</h3>
+      <h3 class="contributorTitle">Contributors </h3>
     </div>
 
     <ul id="contributors"></ul>
@@ -41,6 +41,9 @@
       fetch('./contributors.json')
         .then((response) => response.json())
         .then((contributors) => {
+          const title = document.querySelector(".contributorTitle")
+          title.innerText = `Contributors(${contributors.length})`
+
           contributors = contributors.map((c) => {
             let html = `<li class="contributor">`
             html += `<img class="profile_pict" src="${c.profile_pict}">`
