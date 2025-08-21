@@ -16,7 +16,7 @@
 
 <body>
 
-</body>
+
 <div class="arrow-con">
   <img src="./assets/arrow.webp" alt="">
 </div>
@@ -46,43 +46,10 @@
   </div>
 
   <!--  -->
-  <div class="wrapper">
+  <div class="wrapper"></div>
 
-  </div>
-  <!-- <span class="load">Load More</span> -->
-  <script src="./main.js"></script>
-
-  <script>
-
-    fetch('./data/presidents.json')
-      .then((response) => response.json())
-      .then(presidents => {
-        const wrapper = document.querySelector('.wrapper')
-        presidents.forEach((obj, index) => {
-          const li = document.createElement("li");
-          li.className = "row";
-
-          li.innerHTML =
-            `<div class="num">${index + 1}</div>
-          <div class="flag">${obj.flag}</div>
-          <div class="country_Capital">${obj.country}, ${obj.capital}</div>
-          <div class="name">
-            <a
-              href=${obj.leader.wiki}
-              target="_blank"
-              alt="Not Found"
-              >${obj.leader.name}</a
-            >
-          </div>
-          <div class="age">${obj.leader.age} years</div>
-            `
-          wrapper.appendChild(li)
-        })
-
-      })
-
-  </script>
-
-
-
-</html
+</div>
+    
+    <script src="./main.js"></script>
+  </body>
+</html>
